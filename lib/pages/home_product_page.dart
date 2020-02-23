@@ -71,7 +71,7 @@ class HomeProductPage extends StatelessWidget {
                   ),
                 )
               ],
-            ));,
+            )),
       );
     }).toList();
 

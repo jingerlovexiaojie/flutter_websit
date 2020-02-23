@@ -3,12 +3,14 @@ class ProductItemModel{
   String type ;
   String name;
   String imageUrl;
+  String point;
 
   ProductItemModel({
     this.desc,
     this.type,
     this.name,
-    this.imageUrl
+    this.imageUrl,
+    this.point,
 });
 
   factory ProductItemModel.fromJson(dynamic json){
@@ -17,6 +19,7 @@ class ProductItemModel{
       type: json['type'],
       name: json['name'],
       imageUrl: json['imageUrl'],
+      point: json['point'],
     );
   }
 }
